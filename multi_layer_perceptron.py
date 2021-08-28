@@ -13,7 +13,7 @@ def sigmoid_derivative(x):
 inputs = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
 expected_output = np.array([[0], [1], [1], [0]])
 
-epochs = 20000
+epochs = 10000
 lr = 0.8
 inputLayerNeurons, hiddenLayerNeurons, outputLayerNeurons = 2, 2, 1
 
